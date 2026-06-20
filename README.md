@@ -64,13 +64,42 @@ npm install readline-sync
 └── README.md
 ```
 
-⚙️ Environment Variables
+## 🔐 Environment Variables
 
-Create a .env file:
+Create a `.env` file in the root directory of the project and add the following variables:
 
+```env
 GEMINI_API_KEY=your_gemini_api_key
 PINECONE_API_KEY=your_pinecone_api_key
-PINECONE_INDEX_NAME=your_index_name
+PINECONE_INDEX_NAME=your_pinecone_index_name
+```
+
+### How to Get These Values
+
+#### Gemini API Key
+1. Visit Google AI Studio.
+2. Create an API key.
+3. Copy the generated key and paste it into `GEMINI_API_KEY`.
+
+#### Pinecone API Key
+1. Login to your Pinecone account.
+2. Navigate to API Keys.
+3. Create or copy an existing API key.
+4. Paste it into `PINECONE_API_KEY`.
+
+#### Pinecone Index Name
+1. Open your Pinecone dashboard.
+2. Create an index (or use an existing one).
+3. Copy the index name.
+4. Paste it into `PINECONE_INDEX_NAME`.
+
+Example:
+
+```env
+GEMINI_API_KEY=AIza...
+PINECONE_API_KEY=pcsk_...
+PINECONE_INDEX_NAME=tesla-revenue-index
+```
 
 ⸻
 
