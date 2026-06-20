@@ -52,8 +52,9 @@ npm install readline-sync
 
 ⸻
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 .
 ├── indexing.js        # PDF ingestion and vector indexing
 ├── query.js           # Chatbot and retrieval pipeline
@@ -61,8 +62,7 @@ npm install readline-sync
 ├── .env
 ├── package.json
 └── README.md
-
-⸻
+```
 
 ⚙️ Environment Variables
 
